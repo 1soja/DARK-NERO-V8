@@ -2,8 +2,8 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //aumto functioner
-global.autoTyping = false //auto tying in gc (true to on, false to off)
-global.autoRecord = false //auto recording (true to on, false to off)
+global.autoTyping = true //auto tying in gc (true to on, false to off)
+global.autoRecord = true //auto recording (true to on, false to off)
 
 //documents variants
 global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -15,30 +15,30 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 global.ANTI_BADWORD = 'true' // true of false
-global.AUTO_REACT = 'false' // true of false
+global.AUTO_REACT = 'true' // true of false
 global.INBOX_BLOCK_MSG ='BLOCK !!!'
 global.INBOX_BLOCK = 'off' //inbox block
-global.alivemsg = 'ᴅᴀʀᴋ-ɴᴇʀᴏ ʙᴏᴛ'
-global.alivepic = 'https://i.ibb.co/zFYBPcQ/IMG-20230226-WA0115.jpg '
-global.owner = ['0786802371'] //ur owner number
+global.alivemsg = 'ʜᴇy ɪᴀᴍ ᴀʟɪᴠᴇ🥺'
+global.alivepic = 'https://i.imgur.com/ohoQXCm.jpeg '
+global.owner = ['917306004019'] //ur owner number
 global.ownername = "kaveesha" //ur owner name
 global.ytname = "YT: Dark" //ur yt chanel name
 global.socialm = "GitHub: Dark" //ur github or insta name
-global.location = "India, Mizoram, Aizawl" //ur location
+global.location = "India, Kerala, Alapuzha" //ur location
 
 //bot bomdy 
 global.session = " " //session Id
-global.ownernomer = "94786802371" //ur number
-global.lang = "SI" //Select Language "EN" to English "SI" to sinhala 
-global.premium = ['94786802371'] //ur premium number
-global.botname = 'ᴅᴀʀᴋ-ɴᴇʀᴏ ᴡʜᴀᴛʜᴀᴘᴘ ʙᴏᴛ' //ur bot name
-global.linkz = "https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS" //your theme url which will be displayed on whatsapp
-global.websitex = "https://youtu.be/WiIqCdiDjFo" //ur website to be displayed
+global.ownernomer = "917306004019" //ur number
+global.lang = "EN" //Select Language "EN" to English "SI" to sinhala 
+global.premium = ['917306004019'] //ur premium number
+global.botname = '⸙⃝̸̸̸̸̸𝑳𝑬𝑶̸˵𝑩𝑶̸𝒀̅˵𝑬̽𝑭̽𝑿̽͢' //ur bot name
+global.linkz = "https://chat.whatsapp.com/HYj9wu5JrvbHoS" //your theme url which will be displayed on whatsapp
+global.websitex = "https://youtu.be/WiIo" //ur website to be displayed
 global.botscript = 'https://www.darknero.ga/' //script link
-global.themeemoji = "🦄" //ur theme emoji
-global.packname = "Dark Nero By" //ur sticker watermark packname
-global.author = "Dark Nero Creating By Cyber Yakuza Team" //ur sticker watermark author
-global.wm = "Dark Bot Inc." //ur watermark
+global.themeemoji = "🏵️" //ur theme emoji
+global.packname = "⎾⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃟𝙇⃬⃬⃬̌̽̽̽𝙀⃬⃬⃬⃬⃬⃬̥̥̥̥𝙊̧⃬⃬⃬̬̬̬⭟𝘽⃬⃬⃬̻̻̻̻𝙊⃬⃬⃬̂̂̂̂̂𝙔⎷̶̶̶̶̶̶̶̶̶̶⃯⃯⃯⃯𝙀⃬⃬⃬⃬̽̽̽̽̽𝙁⃬⃬⃬˟⭝𝙓⃬⃬⃬˟⛥⃕͢͢͢͢͢͢͢͢͢ " //ur sticker watermark packname
+global.author = "⎾⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃪⃟𝙇⃬⃬⃬̌̽̽̽𝙀⃬⃬⃬⃬⃬⃬̥̥̥̥𝙊̧⃬⃬⃬̬̬̬⭟𝘽⃬⃬⃬̻̻̻̻𝙊⃬⃬⃬̂̂̂̂̂𝙔⎷̶̶̶̶̶̶̶̶̶̶⃯⃯⃯⃯𝙀⃬⃬⃬⃬̽̽̽̽̽𝙁⃬⃬⃬˟⭝𝙓⃬⃬⃬˟⛥⃕͢͢͢͢͢͢͢͢͢ " //ur sticker watermark author
+global.wm = "𝐋Σ𝚯•ᗷ𝚯𝐘." //ur watermark
 
 // Other
 global.sessionName = 'session'
